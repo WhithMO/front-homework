@@ -1,3 +1,6 @@
+// Ejercicio 03
+// https://2021.adventjs.dev/challenges/03
+
 function isValid(letter) {
     if (letter.includes('{') || letter.includes('}') || letter.includes('[') || letter.includes(']')){
         return false;
